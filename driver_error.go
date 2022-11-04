@@ -15,3 +15,7 @@ type DriverError struct {
 func (err *DriverError) Error() string {
 	return fmt.Sprintf("%s: %s %d", err.prefix, err.message, err.code)
 }
+
+func (err *DriverError) Code() int {
+        return err.code
+}
