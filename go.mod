@@ -1,4 +1,4 @@
-module github.com/mdcnz/sqlanywhere
+module github.com/infraforks/go-sqlanywhere
 
 go 1.15
 
